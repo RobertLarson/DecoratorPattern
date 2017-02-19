@@ -12,13 +12,16 @@
 #include "Bacon.h"
 #include "Cheese.h"
 #include "Mayo.h"
+#include "Turkey.h"
+#include "Ham.h"
 
 #include <iostream>
 
 int main()
 {
 	SmallSub smallSub;
-	Lettuce  smallLettuce(&smallSub);
+	Turkey   smallTurkey(&smallSub);
+	Lettuce  smallLettuce(&smallTurkey);
 	Tomato   smallTomato(&smallLettuce);
 	Bacon    smallBacon(&smallTomato);
 	Cheese   smallCheese(&smallBacon);
@@ -31,7 +34,8 @@ int main()
 
 
 	LargeSub largeSub;
-	Lettuce  largeLettuce(&largeSub);
+	Ham      largeHam(&largeSub);
+	Lettuce  largeLettuce(&largeHam);
 	Tomato   largeTomato(&largeLettuce);
 	Bacon    largeBacon(&largeTomato);
 	Cheese   largeCheese(&largeBacon);

@@ -21,5 +21,5 @@ double SmallSub::GetCost()
 
 std::string SmallSub::GetDescription()
 {
-   return std::string("Small sub");
+   return std::string("Small Sub");
 }

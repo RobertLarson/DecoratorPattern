@@ -22,5 +22,5 @@ double LargeSub::GetCost()
 
 std::string LargeSub::GetDescription()
 {
-   return std::string("Large sub");
+   return std::string("Large Sub");
 }
