@@ -15,11 +15,7 @@ public:
 	Turkey(Sub * sub);
 	virtual ~Turkey();
 
-	virtual double GetCost();
 	virtual std::string GetDescription();
-
-private:
-	Sub * m_pSub;
 };
 
 #endif /* TURKEY_H_ */

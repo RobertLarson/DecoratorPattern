@@ -17,9 +17,6 @@ public:
 
 	virtual double GetCost();
 	virtual std::string GetDescription();
-
-private:
-	Sub * m_pSub;
 };
 
 #endif /* CHEESE_H_ */

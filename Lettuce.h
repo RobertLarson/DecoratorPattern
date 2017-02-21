@@ -15,10 +15,7 @@ public:
 	Lettuce(Sub * sub);
 	virtual ~Lettuce();
 
-	virtual double GetCost();
 	virtual std::string GetDescription();
-private:
-	Sub * m_pSub;
 };
 
 #endif /* LETTUCE_H_ */

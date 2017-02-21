@@ -15,10 +15,7 @@ public:
 	Tomato(Sub * sub);
 	virtual ~Tomato();
 
-	virtual double GetCost();
 	virtual std::string GetDescription();
-private:
-	Sub * m_pSub;
 };
 
 #endif /* TOMATO_H_ */

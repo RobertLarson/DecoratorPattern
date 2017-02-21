@@ -8,7 +8,7 @@
 #include "Bacon.h"
 
 Bacon::Bacon(Sub * sub)
-: m_pSub(sub) {
+: SubItemsDecorator(sub) {
 
 }
 

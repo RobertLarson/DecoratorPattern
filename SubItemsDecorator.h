@@ -12,10 +12,14 @@
 
 class SubItemsDecorator : public Sub {
 public:
-	virtual ~SubItemsDecorator() {}
+	SubItemsDecorator(Sub * sub);
+	virtual ~SubItemsDecorator();
 
-	virtual double GetCost() = 0;
-	virtual std::string GetDescription() = 0;
+	virtual double GetCost();
+	virtual std::string GetDescription();
+
+protected:
+	Sub * m_pSub;
 };
 
 #endif /* SUBITEMSDECORATOR_H_ */

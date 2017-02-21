@@ -6,3 +6,21 @@
  */
 
 #include "SubItemsDecorator.h"
+
+SubItemsDecorator::SubItemsDecorator(Sub * sub)
+: m_pSub(sub)
+{
+}
+
+SubItemsDecorator::~SubItemsDecorator()
+{
+}
+
+double SubItemsDecorator::GetCost(){
+	return m_pSub->GetCost();
+}
+
+std::string SubItemsDecorator::GetDescription()
+{
+	return m_pSub->GetDescription();
+}

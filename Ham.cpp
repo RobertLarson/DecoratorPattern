@@ -8,7 +8,7 @@
 #include "Ham.h"
 
 Ham::Ham(Sub * sub)
-: m_pSub(sub) {
+: SubItemsDecorator(sub) {
 
 }
 

@@ -15,11 +15,7 @@ public:
 	Mayo(Sub * sub);
 	virtual ~Mayo();
 
-	virtual double GetCost();
 	virtual std::string GetDescription();
-
-private:
-	Sub * m_pSub;
 };
 
 #endif /* MAYO_H_ */

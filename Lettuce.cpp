@@ -8,16 +8,11 @@
 #include "Lettuce.h"
 
 Lettuce::Lettuce(Sub * sub)
-: m_pSub(sub) {
+: SubItemsDecorator(sub) {
 
 }
 
 Lettuce::~Lettuce() {
-}
-
-double Lettuce::GetCost()
-{
-	return m_pSub->GetCost() + 0.00;
 }
 
 std::string Lettuce::GetDescription()

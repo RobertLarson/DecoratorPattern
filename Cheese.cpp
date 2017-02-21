@@ -8,7 +8,7 @@
 #include "Cheese.h"
 
 Cheese::Cheese(Sub * sub)
-: m_pSub(sub) {
+: SubItemsDecorator(sub) {
 
 }
 

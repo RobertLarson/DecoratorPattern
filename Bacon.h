@@ -17,8 +17,6 @@ public:
 
 	virtual double GetCost();
 	virtual std::string GetDescription();
-private:
-	Sub * m_pSub;
 };
 
 #endif /* BACON_H_ */

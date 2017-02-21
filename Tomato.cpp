@@ -8,16 +8,11 @@
 #include "Tomato.h"
 
 Tomato::Tomato(Sub * sub)
-: m_pSub(sub) {
+: SubItemsDecorator(sub) {
 
 }
 
 Tomato::~Tomato() {
-}
-
-double Tomato::GetCost()
-{
-	return m_pSub->GetCost() + 0.00;
 }
 
 std::string Tomato::GetDescription()
